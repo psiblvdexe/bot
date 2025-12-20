@@ -4,7 +4,7 @@ import os
 from discord.ext import commands
 
 TOKEN = os.getenv("TOKEN")
-USER_ID = 1452060173739757763
+USER_ID = 1300374418429575169
 
 nicknames = [
     "Папа заходит в офис",
@@ -63,6 +63,7 @@ async def on_ready():
                 print("Ошибка:", e)
 
 bot.run(TOKEN)
+
 
 
 
