@@ -10,37 +10,7 @@ PREFIX = "🕷 "  # НЕВИДИМЫЙ символ, фиксит прыжки �
 SUFFIX = " 🕷"
 
 nicknames = [
-    PREFIX + "Папа заходит в офис" + SUFFIX,
-    PREFIX + "Шалавы в шоке" + SUFFIX,
-    PREFIX + "Пока папа работал" + SUFFIX,
-    PREFIX + "Летели логи" + SUFFIX,
-    PREFIX + "Папе дайте потрогать" + SUFFIX,
-    PREFIX + "Тити и жопу" + SUFFIX,
-    PREFIX + "Папа заводит" + SUFFIX,
-    PREFIX + "Моя цель разрушить" + SUFFIX,
-    PREFIX + "Дропнул как трек" + SUFFIX,
-    PREFIX + "Не буду пушить" + SUFFIX,
-    PREFIX + "Она не лучше" + SUFFIX,
-    PREFIX + "Улыбка до ушей" + SUFFIX,
-    PREFIX + "Я воркаю один" + SUFFIX,
-    PREFIX + "За минуту три лога" + SUFFIX,
-    PREFIX + "Пальцы в крови" + SUFFIX,
-    PREFIX + "Мне нужен профит" + SUFFIX,
-    PREFIX + "Обход Vinted" + SUFFIX,
-    PREFIX + "Папа чистит логи" + SUFFIX,
-    PREFIX + "Сделал так много" + SUFFIX,
-    PREFIX + "Подделал подписи" + SUFFIX,
-    PREFIX + "По дороге" + SUFFIX,
-    PREFIX + "Папа параноит" + SUFFIX,
-    PREFIX + "Savage" + SUFFIX,
-    PREFIX + "Во мне бокал вина" + SUFFIX,
-    PREFIX + "Свэг от меня" + SUFFIX,
-    PREFIX + "Деньги для себя" + SUFFIX,
-    PREFIX + "У папы семья" + SUFFIX,
-    PREFIX + "Папа 812" + SUFFIX,
-    PREFIX + "Папа па папа" + SUFFIX,
-    PREFIX + "Тити и жопу" + SUFFIX,
-    PREFIX + "Вся эта кровь" + SUFFIX
+    PREFIX + "text" + SUFFIX,
 ]
 
 intents = discord.Intents.default()
@@ -66,6 +36,7 @@ async def on_ready():
                 print("Ошибка:", e)
 
 bot.run(TOKEN)
+
 
 
 
